@@ -20,5 +20,6 @@ spec:
           image: registry.hub.docker.com/ekowcharles/ping:20190215_001910_11b6b7f
           ports:
             - containerPort: 8993
+              name: ping-port
       imagePullSecrets:
         - name: regcred
