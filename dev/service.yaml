@@ -8,5 +8,5 @@ spec:
     app.kubernetes.io/name: ping
   ports:
     - protocol: TCP
-      port: 8993
-      targetPort: 9376
+      port: 9376
+      targetPort: 8993
